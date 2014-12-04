@@ -23,8 +23,8 @@ public class HelloResource {
         @ApiResponse(code = 500, message = "Something wrong in Server")})
     public String sayHello() {
         JSONObject json = new JSONObject();
-        json.put("firstName", "Jeremy");
-        json.put("lastName", "Chung");
+        json.put("firstName", "Anastasios");
+        json.put("lastName", "Zouzias");
         json.put("message", "Hello World!");
 
         return json.toJSONString();

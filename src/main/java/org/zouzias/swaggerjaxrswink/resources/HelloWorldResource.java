@@ -28,9 +28,9 @@ public class HelloWorldResource {
         @ApiResponse(code = 500, message = "Something wrong in Server")})
     public String sayHello() {
         JSONObject json = new JSONObject();
-        json.put("firstName", "Jeremy");
-        json.put("lastName", "Chung");
-        json.put("message", "Hello World!");
+        json.put("firstName", "Tassos");
+        json.put("lastName", "Zouzias");
+        json.put("message", "Hello World from /rest/world!");
         return json.toJSONString();
     }
 }
