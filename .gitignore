@@ -1,3 +1,9 @@
 jetty.log
 target/
+src/main/webapp/css/
+src/main/webapp/images/
+src/main/webapp/lib/
+src/main/webapp/o2c.html
+src/main/webapp/swagger-ui.js
+src/main/webapp/swagger-ui.min.js
 
