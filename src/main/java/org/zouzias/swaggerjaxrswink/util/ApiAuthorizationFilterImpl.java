@@ -24,8 +24,6 @@ import org.slf4j.*;
 import java.util.Map;
 import java.util.List;
 
-import javax.servlet.ServletConfig;
-import javax.servlet.http.HttpServlet;
 /**
  * 
  * The rules are maintained in simple map with key as path and a boolean value

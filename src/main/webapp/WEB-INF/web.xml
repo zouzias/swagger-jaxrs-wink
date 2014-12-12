@@ -25,7 +25,20 @@
             <param-name>swagger.api.basepath</param-name>
             <param-value>http://localhost:9999/rest</param-value>
         </init-param>
-        <load-on-startup>1</load-on-startup>
+        <init-param>
+            <param-name>swagger.filter</param-name>
+            <param-value>org.zouzias.swaggerjaxrswink.util.ApiAuthorizationFilterImpl</param-value>
+        </init-param>
+        <load-on-startup>2</load-on-startup>
+    </servlet>
+    <filter>
+        <filter-name>ApiOriginFilter</filter-name>
+        <filter-class>org.zouzias.swaggerjaxrswink.util.ApiOriginFilter</filter-class>
+    </filter>
+    <servlet>
+        <servlet-name>Bootstrap</servlet-name>
+        <servlet-class>org.zouzias.swaggerjaxrswink.Bootstrap</servlet-class>
+        <load-on-startup>2</load-on-startup>
     </servlet>
     <session-config>
         <session-timeout>
