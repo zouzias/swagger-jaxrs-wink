@@ -28,7 +28,7 @@
     </developers>
     
     <properties>
-        <jettyVersion>9.2.2.v20140723</jettyVersion>
+        <jettyVersion>9.4.41.v20210516</jettyVersion>
         <jetty.port>9999</jetty.port>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
